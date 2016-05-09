@@ -1,6 +1,6 @@
 module Lib
-    ( someFunc
+    ( parseCSV
     ) where
 
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+parseCSV :: String -> String
+parseCSV = id
